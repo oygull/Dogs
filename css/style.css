@@ -9,4 +9,61 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  font-family: 'Poppins', sans-serif;;
+}
+.container{
+  width: 1160px;
+}
+.products{
+  width: 360px;
+  padding: 40px 25px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  border-radius: 8px;
+  text-align: center;
+  position: relative;
+}
+.products:nth-child(2){
+  box-shadow: 2px 8px 16px #e27a3a49;;
+}
+.dogs-inner{
+  padding: 120px 0px;
+}
+.products-name{
+  font-size: 25px;
+  line-height: 37px;
+  color: #170C04;
+  margin-bottom: 11px;
+}
+.products-desc{
+  line-height: 24px;
+  color: #170C04;
+  opacity: 0.6;
+  margin-bottom: 24px;
+}
+.products-link{
+  text-decoration: none;
+  line-height: 24px;
+  color: #E27B3A;
+}
+.start-img{
+  width: 63px;
+  height: 54px;
+  position: absolute;
+  top: -27px;
+  left: 50%;
+  margin-left: -30px;
+}
+.products:nth-child(1) .start-img{
+  background-image: url('../images/back-img1.svg');
+}
+.products:nth-child(2) .start-img{
+  background-image: url('../images/back-img2.svg');
+}
+.products:nth-child(3) .start-img{
+  background-image: url('../images/back-img3.svg');
+}
+.food-img{
+  position: relative;
+  top: 5px;
 }
